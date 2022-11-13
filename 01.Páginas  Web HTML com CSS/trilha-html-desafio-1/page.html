@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <img src="img/home-office.jpg" alt="" />
+      </div>
+
+      <nav class="navbar">
+        <a href="index.html">Voltar início</a>
+        <a href="#home">Home</a>
+        <a href="#history">História</a>
+        <a href="#multimidia">Multimídia</a>
+        <a href="#table">Tabelas</a>
+        <a href="#links">Links</a>
+        <a href="#social">Mídias sociais</a>
+      </nav>
+    </header>
+
+    <section class="home" id="home">
+      <div class="item">
+        <h3>A máquina e o homem</h3>
+        <p>
+          A relação entre máquinas e homens tende a se tornar cada vez mais
+          integrada, resultando em um sistema de colaboração que visa maior
+          qualidade e segurança.
+        </p>
+      </div>
+    </section>
+
+    <section class="content" id="history">
+      <div class="itens">
+        <h1>História dos computadores</h1>
+        <em>
+          <h2>História dos computadores</h2>
+        </em>
+        <p>
+          A máquina de calcular mais antiga que se tem notícia foi desenvolvida
+          há mais de 2 mil anos na Grécia e é conhecida como máquina de
+          Antikythera, por ter sido encontrada por mergulhadores explorando um
+          naufrágio na ilha grega de Antikythera em 1901. O artefato em bronze é
+          um complexo de 30 engrenagens capazes de determinar com precisão as
+          posições e os movimentos do Sol, da Lua e de planetas vizinhos. Por
+          meio do uso dessa máquina, era possível prever eclipses e estudar
+          astronomia.
+        </p>
+        <p>
+          O ábaco é utilizado para realizar contas até hoje, mas sua origem é um
+          tanto incerta. Historiadores apontam para o surgimento do instrumento
+          na Mesopotâmia, sendo anos depois aperfeiçoado pelos chineses, mas
+          também existem ábacos em outras civilizações. O esquema decimal do
+          instrumento permitiu ineditamente que uma grande quantia de números
+          fosse representada e facilitasse as contas.
+        </p>
+        <img class="image" src="img/Antikythera.jpg" />
+        <a
+          href="https://www.linknacional.com.br/blog/historia-do-computador/#abaco"
+          target="_blank"
+          ><small>Saiba mais</small>
+        </a>
+      </div>
+      <div class="itens">
+        <em>
+          <h2>HTML: Linguagem de Marcação de Hipertexto</h2>
+        </em>
+
+        <p>
+          HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção
+          mais básico da web. Define o significado e a estrutura do conteúdo da
+          web. Outras tecnologias além do HTML geralmente são usadas para
+          descrever a aparência/apresentação (CSS) ou a
+          funcionalidade/comportamento (JavaScript) de uma página da web.
+        </p>
+        <p>
+          "Hipertexto" refere-se aos links que conectam páginas da Web entre si,
+          seja dentro de um único site ou entre sites. Links são um aspecto
+          fundamental da web. Ao carregar conteúdo na Internet e vinculá-lo a
+          páginas criadas por outras pessoas, você se torna um participante
+          ativo na world wide web.
+        </p>
+        <a
+          href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"
+          target="_blank"
+          ><small>Saiba mais</small>
+        </a>
+      </div>
+      <div class="itens" id="multimidia">
+        <em>
+          <h2>Multimídia e Incorporação</h2>
+        </em>
+        <p>
+          Nós vimos muito sobre texto até aqui nesse curso, mas a internet seria
+          muito chata se usássemos apenas texto. Vamos começar a ver como fazer
+          a internet criar vida, com conteúdo mais interessante! Esse módulo
+          explora como usar HTML para incluir multimídia em sua página
+          web,usando as diferentes formas de inclusão de imagens , e como
+          adicionar vídeo, áudio, e até páginas da web inteiras.
+        </p>
+        <p>
+          Existem outros tipos de multimídia para considerar, porém é lógico
+          começar com o modesto elemento <u>&lt;img &gt;</u> , usado para
+          inserir uma simples imagem em uma página da web. Nesse artigo vamos
+          aprender a usar esse elemento com mais profundidade, incluindo os
+          básicos, anotando com legendas usando <u>&lt;figure&gt;</u>
+        </p>
+        <div class="figure" id="table">
+          <p class="code">
+            &lt;figure&gt;&lt;img src="/media/cc0-images/elephant-660-480.jpg"
+            alt="Elephant at sunset"&gt;&lt;figcaption&gt;An elephant at
+            sunset&lt;/figcaption&gt;&lt;/figure&gt;
+          </p>
+        </div>
+        <a
+          href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/figure"
+          target="_blank"
+          ><small>Saiba mais</small></a
+        >
+      </div>
+      <div class="itens">
+        <em>
+          <h2 id="servers">Tabelas em HTML</h2>
+        </em>
+        <p>
+          ma tarefa muito comum em HTML é estruturar os dados tabulares, e há
+          vários elementos e atributos próprios para essa finalidade. Em
+          conjunto com a linguagem CSS para estilização, o HTML torna fácil a
+          exibição de tabelas com informação na Web, tais como o seu plano de
+          lições escolares, o horário na sua piscina local, ou estatísticas
+          sobre os seus dinossauros favoritos ou seu time de futebol favorito.
+          Este módulo te guia por tudo que você precisa saber sobre a
+          estruturação de dados tabulares utilizando o HTML.
+          <a
+            href="https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Tables"
+            target="_blank"
+            ><small>Saiba mais</small></a
+          >
+        </p>
+      </div>
+      <div class="itens">
+        <em>
+          <h2 id="lists ">Elemento de divisão &lt;div&gt;</h2>
+        </em>
+        <p>
+          O elemento de divisão **HTML &lt;div&gt; **é um container genérico
+          para conteúdo de fluxo, que de certa forma não representa nada. Ele
+          pode ser utilizado para agrupar elementos para fins de estilos (usando
+          class ou id), ou porque eles compartilham valores de atributos, como
+          lang. Ele deve ser utilizado somente quando não tiver outro elemento
+          de semântica (tal como &lt;article&gt; ou &lt;nav&gt;).
+        </p>
+
+        <p>
+          <a
+            href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/div"
+            target="_blank"
+            ><small>Saiba mais</small></a
+          >
+        </p>
+      </div>
+      <div class="itens">
+        <em>
+          <h2 id="links">O que são links</h2>
+        </em>
+        <img src="" alt="" />
+        <p>
+          Os links são represetados pela tag âncora, que nos leva ao determinada
+          págiana a partir do endereço que colocamos dentro do atributo
+          <strong>
+            <em>href</em>
+          </strong>
+          dentro vai o <u>valor</u>,o endereço que queremos que o link nos leve.
+          <a href="https://pt.wikipedia.org/wiki/Links" target="_blank"
+            ><small>Saiba mais</small></a
+          >
+        </p>
+        <p>
+          <a href="index.html">
+            <small>Voltar ao início</small>
+          </a>
+        </p>
+      </div>
+    </section>
+
+    <footer id="social">
+      <div class="social">
+        <a
+          href="https://github.com/emersonpessoa01"
+          target="_blank"
+          class="fa-brands fa-square-github"
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/emersonpessoa/"
+          target="_blank"
+          class="fa-brands fa-linkedin"
+        ></a>
+      </div>
+      <p>
+        By Emerson Pessoa | &copy;todos os direitos reservados
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+      </p>
+    </footer>
+  </body>
+</html>

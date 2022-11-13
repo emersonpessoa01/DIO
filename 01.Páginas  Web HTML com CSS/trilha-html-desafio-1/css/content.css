@@ -1,0 +1,66 @@
+.content {
+  max-width: 100%;
+  margin: 60px auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.content .titulo {
+  text-align: center;
+}
+.content :is(h1, h2, p) {
+  text-align: justify;
+}
+
+.content .itens h1 {
+  text-align: center;
+  margin-bottom: 4rem;
+  color: var(--blue);
+  font-size: 2rem;
+}
+
+.content .itens h2 {
+  color: var(--blue);
+  margin-bottom: 1rem;
+}
+.content .itens {
+  margin-bottom: 4rem;
+}
+.content .itens .image{
+    display: block;
+    margin: 0 auto;
+    height: 20rem;
+    padding: 1rem;
+}
+.content .itens a {
+  display: block;
+  margin-top: 1rem;
+  width: 100%;
+  text-align: center;
+}
+.content .itens .figure .code {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+  margin-top: 1rem;
+  background-color: var(--blue);
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  color: #fff;
+  padding: 30px;
+  text-align: left !important;
+}
+
+.content p {
+  color: #9c9c9c;
+  margin-bottom: 1rem;
+}
+.content p u {
+  color: var(--blue);
+  text-decoration: none;
+  font-weight: 600;
+}

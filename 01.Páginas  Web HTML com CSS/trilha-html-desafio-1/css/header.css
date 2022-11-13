@@ -1,0 +1,33 @@
+.header {
+  background-color: var(--blue);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 4%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  box-shadow: var(--box-shadow);
+}
+
+.header .logo img {
+  border-radius: 10%;
+  height: 4rem;
+}
+.header .navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.header .navbar a {
+  margin-right: 1.25rem;
+  color: white;
+  text-decoration: none;
+}
+
+.header .navbar a:hover {
+  text-decoration: underline;
+}
