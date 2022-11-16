@@ -4,5 +4,5 @@
 <!-- ## Pré-visualização: -->
 
 <!-- []() -->
-<div align="center"><img src="./img/README.png" width=auto>
+<div align="center"><img src="./img/readme01.png" width="auto">
 </div>
