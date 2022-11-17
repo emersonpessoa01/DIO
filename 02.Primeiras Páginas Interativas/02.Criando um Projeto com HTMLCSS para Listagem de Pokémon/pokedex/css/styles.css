@@ -11,7 +11,7 @@
   box-sizing: border-box;
 }
 
-.body {
+body {
   background: var(--light-gray);
 }
 
@@ -78,9 +78,7 @@
     margin: 1rem auto;
     border-radius: 1rem;
   }
-}
-@media screen and (min-width: 992px) {
-  .pokemons {
+  .content .pokemons {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
