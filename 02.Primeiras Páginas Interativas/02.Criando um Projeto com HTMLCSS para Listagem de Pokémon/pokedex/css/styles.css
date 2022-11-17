@@ -34,7 +34,7 @@
 }
 .content .pokemons .pokemon .name {
   color: #fff;
-  margin-bottom: 0;
+  margin-bottom: 0.25rem;
 }
 .content .pokemons .pokemon .detail {
   display: flex;
