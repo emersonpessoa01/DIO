@@ -5,15 +5,16 @@ const limit = 10;
 const url = `https://pokeapi.co/api/v2/pokemon?offeset=${0}&limit=${limit}`;
 
 fetch(url)
- .then((response)=>{
+  .then((response) =>
     //return console.log(response)
-    return response.json() //promessa de um json dentro body
-  }).then((jsonBody)=>{
-    return console.log(jsonBody) //json body convertido
-  })
- .catch((error)=>{
-    return console.error(error)
-  })
- .finally((error)=>{
-    return console.log("Requisição concluída!")
-  })
+    response.json()
+  )
+  //promessa de um json dentro body
+  //requisiação com promessa de uma resposta convertido em json
+
+  .then((jsonBody) => console.log(jsonBody))
+  //json body convertido
+  //imprimir o json
+
+  .catch((error) => console.error(error))
+  .finally(() => console.log("Requisição concluída!"));
