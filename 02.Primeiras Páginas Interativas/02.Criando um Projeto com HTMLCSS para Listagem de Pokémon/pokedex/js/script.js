@@ -10,7 +10,7 @@ fetch(url)
     response.json()
   )
   //promessa de um json dentro body
-  //requisiação com promessa de uma resposta convertido em json
+  //requisição com promessa de uma resposta convertida em json
 
   .then((jsonBody) => console.log(jsonBody))
   //json body convertido
