@@ -6,6 +6,13 @@ pokeApi
     const newHTML = pokemons.map(convertPokemonToLi).join(" ");
     pokemonList.innerHTML += newHTML;
 
+     //map de forma normal 
+    // const newList = pokemons.map((pokemon) => {
+    //   return convertPokemonToLi(pokemon);
+    // });
+    // const newHTML = newList.join("");
+    // pokemonList.innerHTML += newHTML;
+
     // maneira fazendo o mesmo procedimento usando for:
 
     // pokeApi.getPokemons().then((pokemons) => {
