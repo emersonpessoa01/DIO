@@ -14,3 +14,5 @@ Promise.all([
   fetch("https://pokeapi.co/api/v2/pokemon/3"),
   fetch("https://pokeapi.co/api/v2/pokemon/4"),
 ]).then((results) => console.log(results));
+
+
