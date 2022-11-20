@@ -4,9 +4,9 @@ pokeApi
   .getPokemons()
   .then((pokemons = []) => {
     /* array method: map, filter, some, every, reduce, */
-    const newList = pokemons.map((pokemon) => convertPokemonToLi(pokemon));
+    const newList = pokemons.map(convertPokemonToLi).join(" ");
     // console.log(newList);
-    pokemonList.innerHTML += newList.join(" ");
+    pokemonList.innerHTML += newList;
   })
   .catch((error) => console.error(error));
 
