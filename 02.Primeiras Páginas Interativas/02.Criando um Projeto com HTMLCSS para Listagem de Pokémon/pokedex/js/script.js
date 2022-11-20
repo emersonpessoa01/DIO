@@ -3,8 +3,21 @@ const pokemonList = document.getElementById("pokemonList");
 pokeApi
   .getPokemons()
   .then((pokemons = []) => {
-    const newList = pokemons.map(convertPokemonToLi).join(" ");
-    pokemonList.innerHTML += newList;
+    const newHTML = pokemons.map(convertPokemonToLi).join(" ");
+    pokemonList.innerHTML += newHTML;
+
+    // maneira fazendo o mesmo procedimento usando for:
+
+    // pokeApi.getPokemons().then((pokemons) => {
+    //     const listItems = []
+    //     for (let i = 0; i < pokemons.length; i++) {
+    //       const pokemon = pokemons[i];
+    //       listItems.push(convertPokemonToLi(pokemon))
+
+    //   }
+    //   console.log(listItems)
+    //   })
+    //   .catch((error) => console.error(error));
   })
   .catch((error) => console.error(error));
 
