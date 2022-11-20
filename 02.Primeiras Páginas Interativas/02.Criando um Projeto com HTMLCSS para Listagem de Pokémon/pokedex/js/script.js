@@ -21,8 +21,11 @@ pokeApi
   .then((pokemons) => {
     for (let i = 0; i < pokemons.length; i++) {
       // console.log(pokemons[i])
+      const listItems =[]
       const pokemon = pokemons[i];
-      pokemonList.innerHTML += convertPokemonToLi(pokemon);
+      listItems.push(convertPokemonToLi(pokemon))
+      // pokemonList.innerHTML += convertPokemonToLi(pokemon);
+      pokemonList.innerHTML += listItems;
     }
   })
   .catch((error) => console.error(error));
