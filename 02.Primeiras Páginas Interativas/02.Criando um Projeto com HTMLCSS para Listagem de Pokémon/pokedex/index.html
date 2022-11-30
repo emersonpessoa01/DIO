@@ -12,18 +12,28 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="sass/styles.css" />
   </head>
 
   <body>
     <section class="content">
-      <h1>Pokedex</h1>
-      <ol id="pokemonList" class="pokemons">
-        
-      </ol>
+        <h1>Pokedex</h1>
+
+        <ol id="pokemonList" class="pokemons">
+            <!-- ..... Pokemons here ..... -->
+        </ol>
+
+        <div class="pagination">
+            <button id="loadMoreButton" type="button">
+                Load More
+            </button>
+        </div>
     </section>
-    <!-- poke api deve vir antes de script.js -->
+
+    <!-- Pokepai deve vir antes do main.js -->
     <script src="js/poke-api.js"></script>
-    <script src="js/script.js"></script>
-  </body>
+    <script src="js/pokemon-model.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
 </html>
